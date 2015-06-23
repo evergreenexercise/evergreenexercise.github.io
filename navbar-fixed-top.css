@@ -47,20 +47,20 @@ body {
     text-align: center;
 }
 
-.section {
+.Section {
     padding: 4em 0;
 }
 
-.section h1 {
+.Section h1 {
     font-size: 4em;
     padding-bottom: 0.2em;
 }
 
-.section h3 {
+.Section h3 {
     padding-bottom: 0.2em;
 }
 
-.section--primary {
+.Section--primary {
     background-image:
         linear-gradient(
           rgba(138, 181, 58, 0.7),
@@ -73,7 +73,7 @@ body {
     text-shadow: 1px 1px 1px rgb(94, 124, 36);
 }
 
-.section--secondary {
+.Section--secondary {
     background-color: #F7FAF2;
     color: #283710;
 }
