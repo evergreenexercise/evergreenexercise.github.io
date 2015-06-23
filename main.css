@@ -27,6 +27,10 @@ a {
     background-color: #7FB222;
 }
 
+.navbar--green .nav>li>a:active {
+    background-color: #7FB222;
+}
+
 .navbar--green .navbar-toggle {
     border-color: #FCFFF7;
 }
