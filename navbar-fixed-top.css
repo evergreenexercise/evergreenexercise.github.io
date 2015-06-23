@@ -85,3 +85,10 @@ body {
 .Profile-photo {
     padding-bottom: 1em;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar--green .nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
