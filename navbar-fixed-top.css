@@ -12,10 +12,18 @@ body {
 .navbar--green {
     background-color: #92c13a;
     box-shadow: 0px 0px 5px 0px rgba(57, 77, 25, 1);
+    text-shadow: 0px 1px 0px rgb(94, 124, 36);
 }
 
 .navbar--green a {
     color: #FCFFF7;
+}
+
+.navbar--green .navbar-toggle {
+    border-color: #FCFFF7;
+}
+.navbar--green .icon-bar {
+    background-color: #FCFFF7;
 }
 
 .nav {
@@ -62,7 +70,7 @@ body {
     background-position: 0% 25%;
     background-size: cover;
     color: #F1FFF2;
-    text-shadow: #1E3A23 0.2em 0.2em 0.7em;
+    text-shadow: 1px 1px 1px rgb(94, 124, 36);
 }
 
 .section--secondary {
@@ -73,17 +81,3 @@ body {
 .Profile-heading {
     margin: 0 0 1em 0;
 }
-
-.Profile-photo {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center 0%;
-    background-size: cover;
-}
-
-.Profile-photo--kate {
-    background-image: url('/img/AboutKaty.png')
-}
-
