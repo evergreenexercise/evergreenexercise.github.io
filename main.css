@@ -5,6 +5,10 @@ body {
   font-size: 16px;
 }
 
+a {
+    color: #578411;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -17,6 +21,10 @@ body {
 
 .navbar--green a {
     color: #FCFFF7;
+}
+
+.navbar--green .nav>li>a:hover {
+    background-color: #7FB222;
 }
 
 .navbar--green .navbar-toggle {
