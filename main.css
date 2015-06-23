@@ -48,12 +48,16 @@ body {
 }
 
 .Section {
-    padding: 4em 0;
+    padding: 2em 0;
 }
 
 .Section h1 {
-    font-size: 4em;
+    font-size: 2em;
     padding-bottom: 0.2em;
+}
+
+.Section h2 {
+    font-size: 1.2em;
 }
 
 .Section h3 {
@@ -86,6 +90,33 @@ body {
     padding-bottom: 1em;
 }
 
+.Blog {
+    font-size: 22px;
+}
+
+.Blog h1 {
+    text-align: center;
+}
+
+.Blog p {
+    padding-bottom: 30px;
+}
+
+/* Tablets and up */
+@media (min-width: 768px) {
+    .Section {
+        padding: 4em 0;
+    }
+
+    .Section h1 {
+        font-size: 4em;
+    }
+    .Section h2 {
+        font-size: 1.8em;
+    }
+}
+
+/* ONLY Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar--green .nav>li>a {
         padding-left: 10px;
