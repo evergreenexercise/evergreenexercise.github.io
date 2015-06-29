@@ -9,6 +9,11 @@ a {
     color: #578411;
 }
 
+a:hover {
+    color: #2E440C;
+    text-decoration: none;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -94,6 +99,14 @@ a {
     color: #283710;
 }
 
+.Section--blogBanner {
+    min-height: 300px;
+}
+
+.Section--blog {
+    padding-top: 0;
+}
+
 .Profile-heading {
     margin: 0 0 1em 0;
 }
@@ -102,16 +115,27 @@ a {
     padding-bottom: 1em;
 }
 
+.BlogSnippet .media:hover {
+    background-color: #eee;
+}
+
 .Blog {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .Blog h1 {
     text-align: center;
+    font-size: 1.8em;
 }
 
 .Blog p {
     padding-bottom: 30px;
+}
+
+.Background--blog1 {
+    background-image: url('img/blog_photo_01.jpg');
+    background-size: cover;
+    background-position: 39% 40%;
 }
 
 /* Tablets and up */
@@ -121,10 +145,32 @@ a {
     }
 
     .Section h1 {
-        font-size: 4em;
+        font-size: 64px;
     }
     .Section h2 {
         font-size: 1.8em;
+    }
+
+    .Section--blogBanner {
+        min-height: 500px;
+    }
+
+    .Section--blog {
+        padding-top: 10px;
+    }
+
+    .Blog {
+        font-size: 22px;
+    }
+
+    .Blog h1 {
+        text-align: left;
+    }
+
+    .Background--blog1 {
+        background-image: url('img/blog_photo_01.jpg');
+        background-size: cover;
+        background-position: 0% 30%;
     }
 }
 
@@ -133,5 +179,12 @@ a {
     .navbar--green .nav>li>a {
         padding-left: 10px;
         padding-right: 10px;
+    }
+}
+
+/* ONLY Desktop */
+@media (min-width: 1200px) {
+    .Section--blogBanner {
+        min-height: 600px;
     }
 }
