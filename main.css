@@ -32,6 +32,10 @@ a:hover {
     background-color: #7FB222;
 }
 
+.navbar--green .nav>li.active>a {
+    background-color: #7FB222;
+}
+
 .navbar--green .nav>li>a:active {
     background-color: #7FB222;
 }
@@ -45,23 +49,6 @@ a:hover {
 
 .nav {
     font-size: 14px;
-}
-
-.jumbotron {
-    position: relative;
-    margin-bottom: 0px;
-    background-image:
-        linear-gradient(
-          rgba(138, 181, 58, 0.3),
-          rgba(138, 181, 58, 0.3)
-        ),
-        url('/img/jumbotronbackground.jpg');
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #F1FFF2;
-    text-shadow: #1E3A23 0.2em 0.2em 0.7em;
-    text-align: center;
 }
 
 .Section {
